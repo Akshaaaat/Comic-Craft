@@ -1,0 +1,35 @@
+.navbar2{
+    width: calc(450px + 15vw);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+    margin: 0 50px;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+    top: 15px;
+    filter: drop-shadow(0 0 10px white);
+    font-family: 'Kenia', sans-serif;
+}
+.navbar2 span:nth-child(1){
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar2{
+        max-width: 400px;
+        min-width: 200px;
+        width: 80%;
+        padding: 9px 0;
+        margin: auto;   
+    }
+
+    .navbar2 span:nth-child(1){
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+}

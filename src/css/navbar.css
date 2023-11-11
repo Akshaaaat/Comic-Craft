@@ -1,0 +1,21 @@
+/* ###########
+###### */
+
+.bg-body-tertiary{
+    background: rgb(84, 8, 159) !important;
+}
+
+.navbar-heading{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link.active{
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover{
+    font-weight: 500;
+}
